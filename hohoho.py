@@ -27,9 +27,11 @@ for j in range(100):
                 15 - (a // 2)) + E
             a += 2
     if(j % 2 == 0):
+        print G + ' ' * (a // 2) + '*' + E
         print R + ' ' * (a // 2) + '*' + E
         print G + ' ' * (a // 2) + '*' + E
     else:
+        print R + ' ' * (a // 2) + '*' + E
         print G + ' ' * (a // 2) + '*' + E
         print R + ' ' * (a // 2) + '*' + E
     a = 1
